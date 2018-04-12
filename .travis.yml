@@ -19,5 +19,6 @@ jobs:
           script: echo "xcode7.3"
           
         - stage: deploy
+          osx_image: xcode9.2
           script: echo "deploy"
 
